@@ -117,7 +117,7 @@ Updating the context-based store value in deeper-level pages or components will 
 
 If you're not using SSR (and can guarantee that you won't need to use SSR in future) then you can safely keep state in a shared module, without using the context API.
 
-## Component and page state is preserved
+## Component and page state are preserved
 
 When you navigate around your application, SvelteKit reuses existing layout and page components. For example, if you have a route like this...
 
